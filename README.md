@@ -1,4 +1,4 @@
-# airflow-tutorial
+# Airflow Tutorial
 Tutorial Link - https://www.udemy.com/course/the-complete-hands-on-course-to-master-apache-airflow/
 
 ## Installation ond Airflow:
