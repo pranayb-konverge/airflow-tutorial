@@ -15,6 +15,7 @@
 4. Then in the docker desktop setting >> General >> Enable Docker Compose V1/V2 compatibility mode.
 5. Then run the command - `docker-compose -f docker-compose.yaml up -d`
 6. Note: normally you will see the docker-compose -v as 1.2.5 but after point (4) you should see `Docker Compose version v2.5.0`.
+7. Note: I my case the current folder has 2 files `docker-compose_celery_executor.yaml` & `docker-compose_local_executor.yaml`, I using the local executor one to run. So the command will be `docker-compose -f docker-compose_local_executor.yaml up -d`
 
 ## ERROR: 8080 port already in use
 - When I run the command `docker-compose -f docker-compose.yaml up -d`, for webserver 
