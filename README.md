@@ -5,7 +5,6 @@ Tutorial Link - https://www.udemy.com/course/the-complete-hands-on-course-to-mas
 - `python3 -m venv sandbox`
 - `source sandbox/bin/activate`
 - `pip3 install wheel`
-- `pip3 install wheel`
 - `pip3 --no-cache-dir install apache-airflow==2.1.0 --constraint https://gist.githubusercontent.com/marclamberti/742efaef5b2d94f44666b0aec020be7c/raw/21c88601337250b6fd93f1adceb55282fb07b7ed/constraint.txt`
 
 ## Start Airflow:
