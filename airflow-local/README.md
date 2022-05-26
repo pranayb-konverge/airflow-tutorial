@@ -1,4 +1,4 @@
-# On local Ubuntu machine
+# On local Ubuntu machine/ your Konverge.AI laptop
 
 ## Installation of Airflow:
 ### Inside your laptop Ubuntu terminal perform below tasks.
