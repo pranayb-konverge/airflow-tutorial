@@ -31,3 +31,6 @@
 - Run the following command or Logout and login again and run (if that doesn't work you may need to reboot your machine first): $ `newgrp docker`
 - Check if docker can be run without root: `docker run hello-world`
 - Reboot if still got the error: `reboot`
+
+# Block flow of Airflow setup
+![Airflow Setup diagram](https://github.com/pranayb-konverge/airflow-tutorial/blob/main/airflow-local/Airflow%20setup%20diagram.jpg)
