@@ -11,6 +11,10 @@ Tutorial Link - https://www.udemy.com/course/the-complete-hands-on-course-to-mas
 - `airflow db init`
 - `airflow users create --username admin --password admin --firstname Admin --lastname Admin --role Admin --email admin@airflow.com`
 
+## Start Airflow webserver and scheduler:
+- `airflow webserver`
+- `airflow scheduler`
+
 ## Change default conf of sql_alchemy:
 ### By default the sqlite is configured but for parallel processing of task we cannot have sqlite, we will need postgres
 - to check default conf - `airflow config get-value core sql_alchemy_conn` you will get "sqlite:////home/airflow/airflow/airflow.db"
