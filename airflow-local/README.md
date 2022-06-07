@@ -28,5 +28,13 @@
 ## Note
 - If the dags are not visible please restart the docker containers for webserver and scheduler.
 
+### If you want to run docker as non-root user then you need to add it to the docker group.
+- Create the docker group if it does not exist: `sudo groupadd docker`
+- Add your user to the docker group: `sudo usermod -aG docker $USER`
+- Run the following command or Logout and login again and run (if that doesn't work you may need to reboot your machine first): $ `newgrp docker`
+- Check if docker can be run without root: `docker run hello-world`
+- Reboot if still got the error: `reboot`
+
+
 # Block flow of Airflow setup
 ![Airflow Setup diagram](https://github.com/pranayb-konverge/airflow-tutorial/blob/main/airflow-local/Airflow%20setup%20diagram.jpg)
