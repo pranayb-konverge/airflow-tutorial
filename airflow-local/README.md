@@ -6,6 +6,7 @@
 - `source sandbox/bin/activate`
 - `pip3 install wheel`
 - `pip3 --no-cache-dir install apache-airflow==2.1.0 --constraint https://gist.githubusercontent.com/marclamberti/742efaef5b2d94f44666b0aec020be7c/raw/21c88601337250b6fd93f1adceb55282fb07b7ed/constraint.txt`
+- Docker compose to use - https://github.com/pranayb-konverge/airflow-tutorial/blob/main/airflow-local/docker-compose_local_executor.yaml
 
 # Use docker-compose for running Airflow in multiple containers - `airflow-local` folder.
 ## To install and run docker-compose.yaml
